@@ -1,0 +1,39 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    height: 100vh;
+    text-align: center;
+    background-color: darkolivegreen;
+
+}
+
+.background-image{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+    height: 100%;
+}
+
+h1 {
+    padding: 50px;
+}
+
+textarea {
+    margin-top: 10px;
+    resize: none;
+    border: solid 2px black;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+button{
+    margin: 25px;
+    padding: 10px 20px;
+    border: solid 2px black;
+}
+ 

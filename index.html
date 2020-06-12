@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=#, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <title>Oli's Morsecode Translator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="background-image">
+        <h1>Welcome to Oli's Morse code translator</h1>
+        <section class="translate-section" id="translate-section">
+            <textarea id="inputTextArea" rows="10" cols="50" placeholder="Type your message here..." spellcheck="false"></textarea>
+            <textarea id="morseTextArea" rows="10" cols="50" placeholder="See the code..." spellcheck="false"></textarea>
+        </section>
+        <button onclick="codeButtonClicked()" class="translate-button" id="translate-button">Codify</button>
+        <button onclick="decodeButtonClicked()" class="translate-button" id="translate-button">Decode</button>
+    </div>
+</body>
+</html>
